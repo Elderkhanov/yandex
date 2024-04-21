@@ -1,0 +1,26 @@
+.tournament {
+    &__header {
+        margin-top: 106px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 63px;
+    }
+    &__main {
+        height: 528px;
+        margin-top: 64px;
+        display: flex;
+        gap: 44px;
+        align-items: flex-start;
+    }
+    .info {
+        margin-top: 10px;
+        a {
+            color: rgb(48, 87, 162);
+            font-size: 20px;
+            font-weight: 400;
+            text-align: left;
+            text-decoration: none;
+        }
+    }
+}

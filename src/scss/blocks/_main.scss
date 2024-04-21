@@ -1,0 +1,36 @@
+.main {
+    background: url('../img/main/1920.jpg') center center/cover no-repeat;
+    min-height: 700px;
+    width: 100%;
+    padding-top: 26px;
+    &__wrapper {
+        margin-top: 62px;
+        width: 542px;
+    }
+    &__h1 {
+        color: rgb(49, 49, 49);
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 110%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    &__next {
+        color: rgb(49, 49, 49);
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 110%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__descr {
+        margin-top: 24px;
+        color: rgb(49, 49, 49);
+        font-family: Golos Text;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 130%;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,27 @@
+.table {
+    margin-top: 50px;
+	width: 100%;
+	border: none;
+	margin-bottom: 20px;
+    table {
+        width: 100%;
+    }
+    tr {
+        color: rgb(49, 49, 49);
+        font-size: 20px;
+        font-weight: 600;
+    }
+    tr:not(:last-child) {
+        border-bottom: 1px solid rgb(208, 208, 208);
+    }
+    td {
+        color: rgb(49, 49, 49);
+        font-size: 20px;
+        font-weight: 400;
+        border-right: 1px solid rgb(208, 208, 208);
+        padding: 16px 16px 16px 0px;
+    }
+    th {
+        padding: 16px;
+    }
+}

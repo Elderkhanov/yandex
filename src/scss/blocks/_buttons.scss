@@ -1,0 +1,19 @@
+.btn {
+    width: 263px;
+    height: 72px;
+    padding: 0 40px;
+    border-radius: 66px;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    border: 2px solid rgb(31, 31, 31);
+    &_black {
+        background: rgb(31, 31, 31);
+        color: rgb(255, 255, 255);
+        margin-right: 16px;
+    }
+    &__block {
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+    }
+}
