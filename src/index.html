@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Chess</title>
 </head>
@@ -22,8 +25,8 @@
                     <br>
                     Международного васюкинского турнира по шахматам</div>
                 <div class="btn__block">
-                    <button href="#" class="btn btn_black">Поддержать шахматную мысль</button>
-                    <button href="#" class="btn btn_clear">Подробнее о турнире</button>
+                    <a href="#support" class="btn btn_black">Поддержать<br> шахматную мысль</a>
+                    <a href="#stages" class="btn btn_clear">Подробнее о турнире</a>
                 </div>
             </div>
         </div>
@@ -42,7 +45,7 @@
     <section class="tournament">
         <div class="container">
             <div class="tournament__header">
-                <div class="tournament__header_descr text__big">
+                <div id="support" class="tournament__header_descr text__big">
                     Чтобы поддержать Международный васюкинский турнир посетите лекцию на тему: <span>«Плодотворная дебютная идея»</span>
                 </div>
                 <div class="tournament__header_photo">
@@ -84,5 +87,140 @@
             </div>
         </div>
     </section>
+
+    <!-- section stages -->
+
+    <section class="stages">
+        <div class="container">
+            <div class="stages__txt">
+                <div id="stages" class="up">Этапы преображения</div>
+                <div class="down">Васюков</div>
+                <div class="right">Будущие источники 
+                    <br>
+                    обогащения васюкинцев</div>
+            </div>
+            <div class="stages__wrapper">
+                <div class="stages__wrapper_block first">
+                    <div>1</div>
+                    <div>Строительство железнодорожной магистрали Москва-Васюки</div>
+                </div>
+                <div class="stages__wrapper_block second">
+                    <div>2</div>
+                    <div>Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов</div>
+                </div>
+                <div class="stages__wrapper_block third">
+                    <div>3</div>
+                    <div>Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры, шоколадных конфет</div>
+                </div>
+                <div class="stages__wrapper_block fourth">
+                    <div>4</div>
+                    <div>Строительство дворца для турнира</div>
+                </div>
+                <div class="stages__wrapper_block fifth">
+                    <div>5</div>
+                    <div>Размещение гаражей для гостевого автотранспорта</div>
+                </div>
+                <div class="stages__wrapper_block sixth">
+                    <div>6</div>
+                    <div>Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов</div>
+                </div>
+                <div class="stages__wrapper_block seventh">
+                    <div>7</div>
+                    <div>Создание аэропорта «Большие Васюки»<br> с регулярным отправлением почтовых<br> 
+                        самолётов и дирижаблей во все концы<br> света, включая Лос-Анжелос и Мельбурн</div>
+                </div>
+                <div class="air">
+                    <img src="icons/stages/air.png" alt="air">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section members -->
+
+    <section class="members">
+        <div class="container">
+            <div class="members__header">
+                <div class="members__header_txt">Участники турнира</div>
+                <div class="members__slider-counter">
+                    <div class="members__slider-prev">
+                        <img src="icons/members/left.svg" alt="prev">
+                    </div>
+                    <span id="current">1</span>
+                    /
+                    <span id="total">6</span>
+                    <div class="members__slider-next">
+                        <img src="icons/members/right.svg" alt="next">
+                    </div>
+                </div>
+            </div>
+            <div class="members__main">
+                <div class="members__main_block">
+                    <div class="members__main_block-photo">
+                        <img src="img/members/member.png" alt="member">
+                    </div>
+                    <div class="members__main_block-name">Хозе-Рауль Капабланка</div>
+                    <div class="members__main_block-rank">Чемпион мира по шахматам</div>
+                    <div class="members__main_block-info">Подробнее</div>
+                </div>
+                <div class="members__main_block">
+                    <div class="members__main_block-photo">
+                        <img src="img/members/member.png" alt="member">
+                    </div>
+                    <div class="members__main_block-name">Хозе-Рауль Капабланка</div>
+                    <div class="members__main_block-rank">Чемпион мира по шахматам</div>
+                    <div class="members__main_block-info">Подробнее</div>
+                </div>
+                <div class="members__main_block">
+                    <div class="members__main_block-photo">
+                        <img src="img/members/member.png" alt="member">
+                    </div>
+                    <div class="members__main_block-name">Хозе-Рауль Капабланка</div>
+                    <div class="members__main_block-rank">Чемпион мира по шахматам</div>
+                    <div class="members__main_block-info">Подробнее</div>
+                </div>
+                <div class="members__main_block">
+                    <div class="members__main_block-photo">
+                        <img src="img/members/member.png" alt="member">
+                    </div>
+                    <div class="members__main_block-name">Хозе-Рауль Капабланка</div>
+                    <div class="members__main_block-rank">Чемпион мира по шахматам</div>
+                    <div class="members__main_block-info">Подробнее</div>
+                </div>
+                <div class="members__main_block">
+                    <div class="members__main_block-photo">
+                        <img src="img/members/member.png" alt="member">
+                    </div>
+                    <div class="members__main_block-name">Хозе-Рауль Капабланка</div>
+                    <div class="members__main_block-rank">Чемпион мира по шахматам</div>
+                    <div class="members__main_block-info">Подробнее</div>
+                </div>
+                <div class="members__main_block">
+                    <div class="members__main_block-photo">
+                        <img src="img/members/member.png" alt="member">
+                    </div>
+                    <div class="members__main_block-name">Хозе-Рауль Капабланка</div>
+                    <div class="members__main_block-rank">Чемпион мира по шахматам</div>
+                    <a class="members__main_block-info">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section morque -->
+
+    <section class="morque">
+        <div class="morque__block">Дело помощи утопающим — дело рук самих утопающих! - Шахматы двигают вперед не только культуру, но и экономику! - Лед тронулся, господа присяжные заседатели!</div>
+    </section>
+
+    <!-- section footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__descr">
+                Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта. С подробностями можно познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

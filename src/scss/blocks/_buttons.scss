@@ -1,4 +1,8 @@
 .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 263px;
     height: 72px;
     padding: 0 40px;
@@ -10,6 +14,19 @@
         background: rgb(31, 31, 31);
         color: rgb(255, 255, 255);
         margin-right: 16px;
+        transition: .3s all;
+        &:hover {
+            border: none;
+            background: rgb(251, 206, 81);
+            color: rgb(31, 31, 31);
+        }
+    }
+    &_clear {
+        transition: .3s all;
+        &:hover {
+            background: rgb(31, 31, 31);
+            color: rgb(255, 255, 255);
+        }
     }
     &__block {
         display: flex;

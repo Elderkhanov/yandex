@@ -1,0 +1,91 @@
+.members {
+    padding-top: 210px;
+    padding-bottom: 135px;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        &_txt {
+            color: rgb(49, 49, 49);
+            font-family: Merriweather;
+            font-size: 54px;
+            font-weight: 400;
+            line-height: 120%;
+            letter-spacing: 0px;
+            text-align: left;
+            text-transform: uppercase;
+        }
+    }
+    &__slider-counter {
+        display: flex;
+        align-items: center;
+    }
+    &__slider-prev {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 44px;
+        height: 44px;
+        background: rgb(49, 49, 49);
+        margin-right: 14px;
+        cursor: pointer;
+    }
+    &__slider-next {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 44px;
+        height: 44px;
+        background: rgb(49, 49, 49);
+        margin-left: 14px;
+        cursor: pointer;
+    }
+    &__main {
+        display: flex;
+        gap: 117px;
+        overflow: hidden;
+        margin-top: 65px;
+        &_block {
+            &:first-child {
+                margin-left: 57px;
+            }
+            width: 33.33333%;
+            &-photo {
+                overflow: hidden;
+                border-radius: 50%;
+                background: url(../img/members/bg.png) center center/cover no-repeat;
+            }
+            &-name {
+                color: rgb(49, 49, 49);
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 120%;
+                margin-top: 10px;
+                text-align: center;
+            }
+            &-rank {
+                color: #696767;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 120%;
+                text-align: center;
+            }
+            &-info {
+                margin-top: 20px;
+                font-size: 16px;
+                text-align: center;
+                padding: 12px;
+                border: 1px solid #3057A2;
+                border-radius: 62px;
+                color: #3057A2;
+                cursor: pointer;
+                transition: .3s all;
+                &:hover {
+                    background-color: #3057A2;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

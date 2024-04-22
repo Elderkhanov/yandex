@@ -8,6 +8,7 @@
         width: 542px;
     }
     &__h1 {
+        font-family: "Merriweather", serif;
         color: rgb(49, 49, 49);
         font-size: 60px;
         font-weight: 400;
@@ -16,6 +17,7 @@
         text-transform: uppercase;
     }
     &__next {
+        font-family: "Merriweather", serif;
         color: rgb(49, 49, 49);
         font-size: 60px;
         font-weight: 400;
@@ -26,7 +28,6 @@
     &__descr {
         margin-top: 24px;
         color: rgb(49, 49, 49);
-        font-family: Golos Text;
         font-size: 18px;
         font-weight: 400;
         line-height: 130%;
