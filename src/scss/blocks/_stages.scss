@@ -27,7 +27,7 @@
     &__wrapper {
         position: relative;
         display: grid;
-        grid-template-columns: repeat(3, 394px);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
         margin-top: 70px;
         gap: 9px;
@@ -57,7 +57,7 @@
         .air {
             position: absolute;
             top: 45%;
-            right: -35px;
+            right: -42px;
         }
     }
 }
