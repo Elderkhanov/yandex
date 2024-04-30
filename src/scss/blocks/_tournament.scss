@@ -6,10 +6,13 @@
         align-items: flex-start;
         justify-content: space-between;
         gap: 63px;
+        &_descr-mobile {
+            display: none;
+        }
     }
     &__main {
         height: 528px;
-        margin-top: 64px;
+        margin-top: 20px;
         display: flex;
         gap: 44px;
         align-items: flex-start;

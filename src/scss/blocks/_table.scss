@@ -25,3 +25,33 @@
         padding: 16px;
     }
 }
+.table__mobile {
+    display: none;
+    &_block {
+        margin-top: 16px;
+        padding-bottom: 16px;
+        &-line {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+        &:not(:last-child) {
+            border-bottom: 1px solid gray;
+        }
+        &-up {
+            color: rgb(49, 49, 49);
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 120%;
+            text-align: left;
+        }
+        &-down {
+            color: rgb(49, 49, 49);
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 155%;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+    }
+}
