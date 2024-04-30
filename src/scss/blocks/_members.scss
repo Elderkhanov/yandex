@@ -15,8 +15,12 @@
             text-transform: uppercase;
         }
     }
-    &__slider-counter, &__slider-counter-small {
+    &__slider-counter {
         display: flex;
+        align-items: center;
+    }
+    &__slider-counter-small {
+        display: none;
         align-items: center;
     }
     &__slider-prev, &__slider-prev-small {
@@ -29,6 +33,12 @@
         background: rgb(49, 49, 49);
         margin-right: 14px;
         cursor: pointer;
+        transition: .3s all;
+    }
+    &__slider-prev {
+        &:hover {
+            background-color: rgb(251, 206, 81);
+        }
     }
     &__slider-next, &__slider-next-small {
         display: flex;
@@ -40,6 +50,12 @@
         background: rgb(49, 49, 49);
         margin-left: 14px;
         cursor: pointer;
+        transition: .3s all;
+    }
+    &__slider-next {
+        &:hover {
+            background-color: rgb(251, 206, 81);
+        }
     }
     &__main {
         display: flex;

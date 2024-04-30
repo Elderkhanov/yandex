@@ -82,6 +82,7 @@
         }
         .btn_clear {
             background-color: #fff;
+            color: rgb(31, 31, 31);;
             border: 1px solid yellow;
             font-weight: 700;
         }
@@ -299,6 +300,7 @@
                 background: rgb(49, 49, 49);
                 margin-right: 14px;
                 cursor: pointer;
+                transition: .3s all;
             }
             &-next {
                 display: flex;
@@ -310,6 +312,7 @@
                 background: rgb(49, 49, 49);
                 margin-left: 14px;
                 cursor: pointer;
+                transition: .3s all;
             }
             // &-inner {
             //     display: flex;
@@ -380,6 +383,7 @@
             }
         }
         &__slider-counter-small {
+            display: flex;
             justify-content: center;
             margin-top: 40px;
         }

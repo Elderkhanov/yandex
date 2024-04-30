@@ -27,6 +27,11 @@
             background: rgb(31, 31, 31);
             color: rgb(255, 255, 255);
         }
+
+        &:active {
+            background: rgb(31, 31, 31);
+            color: rgb(255, 255, 255);
+        }
     }
     &__block {
         display: flex;
